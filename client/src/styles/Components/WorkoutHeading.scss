@@ -1,0 +1,33 @@
+#heading-workout {
+  margin: 26px 0;
+  color: var(--text-general);
+  text-align: center;
+
+  .recalc-wrapper {
+    text-align: left;
+
+    .recalc-button {
+      margin-top: 20px;
+      display: inline-block;
+      padding: 8px 13px;
+
+      color: var(--nav-button);
+      background-color: var(--nav-button-background);
+
+      font-size: 14px;
+      font-weight: 700;
+      text-shadow: 0 1px 3px var(--button-shadow);
+      text-transform: uppercase;
+      border: 3px solid var(--nav-button-border);
+      border-radius: 2rem;
+      cursor: pointer;
+
+      &:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+      }
+
+
+    }
+  }
+}

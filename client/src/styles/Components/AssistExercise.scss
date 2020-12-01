@@ -1,0 +1,46 @@
+.assist-exercise-wrapper {
+  margin-bottom: 1rem;
+
+  .title-delete-wrapper {
+    margin-bottom: 1rem;
+
+    font-size: 20px;
+    font-weight: 700;
+
+    .assist-title {
+      display: flex;
+      margin: 0 5px 5px 0;
+
+      .assist-name {
+        margin-right: 10px;
+      }
+    }
+
+    .delete-assist {
+      display: inline-block;
+      padding: 7px 14px;
+
+      font-size: 15px;
+      font-weight: 400;
+      color: var(--text-general);
+      background: var(--remove);
+      text-shadow: 0 1px 3px rgb(12, 87, 59);
+      border-radius: 4px;
+      cursor: pointer;
+
+      &:hover {
+        transform: translateY(-1px);
+        background: var(--remove-hover);
+        box-shadow: inset 0 -1px 0 0 #babdbe,0 1px 4px 0 rgba(0,0,0,.1);
+      }
+    }
+  }
+
+  .assist-input-wrapper {
+    margin-left: 100px;
+    input {
+      margin: 0 7px 7px 0;
+      width: 30px;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+#rm-tm-wrapper {
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: .65fr 1fr;
+  grid-row-gap: 1rem;
+}
+
+@media (min-width: 600px) {
+  #rm-tm-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+}

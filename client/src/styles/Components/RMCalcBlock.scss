@@ -1,0 +1,45 @@
+#rm-calc#rm-calc {
+  margin-top: 3rem;
+
+  .title {
+    margin-bottom: 7px;
+
+    font-weight: 700;
+  }
+
+  .weight-reps-wrapper {
+    display: flex;
+
+    .rm-calc-reps {
+      margin-left: 2rem;
+    }
+
+    .rm-calc-wrapper {
+      margin-left: 2rem;
+
+      .input-title {
+        margin-bottom: 8px;
+      }
+      .rm-calc-ans {
+        font-weight: 700;
+        text-align: center;
+      }
+    }
+
+  }
+}
+
+
+@media (min-width: 600px) {
+  #rm-calc#rm-calc {
+    width: 269px;
+    margin: 1rem auto 0;
+  }
+
+  #workout-home {
+    #rm-calc#rm-calc {
+      margin-top: 3rem;
+    }    
+  }
+
+}

@@ -1,0 +1,26 @@
+.exercise-row {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-bottom: 5px;
+
+  span:nth-child(3) {
+    margin-left: 12px;
+  }
+  
+  .exercise-last-set {
+    width: 50px;
+
+    input {
+      margin-bottom: 5px;
+    }
+  }
+
+  &:last-child {
+    align-items: flex-start;
+  
+    span:not(:last-child) {
+      margin-top: 7px;
+    }
+  }
+}

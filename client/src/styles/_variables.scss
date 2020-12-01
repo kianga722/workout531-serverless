@@ -1,0 +1,106 @@
+// Color Variables
+:root {
+  --text-general: white;
+  --background: #f6f9fc;
+
+  --scheme: #ff0000;
+
+  --gradient-top: #53f;
+  --gradient-mid: #05d5ff;
+  --gradient-bottom: #a6ffcb;
+  --stripe-one: #4c29ff;
+  --stripe-two: #318eff;
+  --stripe-three: #4fdfd8;
+  --stripe-four: #2be7ff;
+  --stripe-five: #a1ffc8;
+
+  --links-top-shadow: #040a17;
+  --links-top-hover: #cad6e7;
+
+  --popup-background: #322a39;
+
+  --err: #cb1a1a;
+
+  --notifications-info: #318eff;
+  --notifications-info-background: #fcfdfd;
+  --notifications-info-close: #339ead;
+  --notifications-err-close: #fba12e;
+  --notifications-info-close-hover: #1800f3;
+
+  --confirm-button: #464c4f;
+  --confirm-gradient-top: #fff;
+  --confirm-gradient-bottom: #efefef;
+  --button-shadow: rgba(255, 255, 255, 0.8);
+
+  --main-summary-shadow: #040a17;
+
+  --register-background: #3ecf8e;
+  --register-shadow: rgb(51, 61, 57);
+
+  --demo-separation: #72b1ff;
+  --demo-shadow: rgba(24, 32, 201, 0.8);
+
+  --demo-gradient-top:#988ffb;
+  --demo-gradient-bottom: #347698;
+  --demo-step-shadow: black;
+
+  --workout-text: #21201f;
+  --workout-text-shadow: rgba(169, 169, 169, 0.8);
+
+  --nav-button: #464c4f;
+  --nav-button-background: #11f0f0;
+  --nav-button-border: #fbfbfb;
+
+  --bullet: #8566e5;
+  --exercise-title-shadow: white;
+
+  --input-border: black;
+  --input-focus-border: rgba(24, 32, 201, 0.8);
+  --input-box-shadow: #719ECE;
+  
+  --add-button-shadow: rgb(12, 87, 59);;
+  --add-button-shadow-hover: #75b4ff;
+
+  --title-row-border: black;
+
+  --remove: #be1f1f;
+  --remove-hover: #dd1919;
+
+  --done-gradient-bottom: #1233b6;
+
+  --form-text: #1a1f36;;
+  --form-submit: rgb(84, 105, 212);
+
+  --form-links: #5469d4;
+
+  --submit-button-top: #28a0e5;
+  --submit-button-bottom: #015e94;
+}
+
+.redScheme {
+  --scheme: #53f;
+
+  --gradient-top: #ff0000;
+  --gradient-mid: #ffcd0b;
+  --gradient-bottom: #ffbe9c;
+  --stripe-one: #c20404;
+  --stripe-two: #fc3b06;
+  --stripe-three: #f83737;
+  --stripe-four: #ff3719f2;
+  --stripe-five: #ff000029;
+
+  --register-background: #122013;
+
+  --demo-separation: #894765;
+
+  --demo-gradient-top:#babc26;
+  --demo-gradient-bottom: #ff57e9;
+
+  --nav-button: #122013;
+  --nav-button-background: #f4ee2e;
+
+  --bullet: #ff002d;
+  
+  --input-focus-border: rgba(241, 0, 0, 0.8);
+  --input-box-shadow: rgb(179, 137, 23);
+}

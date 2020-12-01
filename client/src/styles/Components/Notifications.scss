@@ -1,0 +1,82 @@
+.notifications-wrapper {
+  .popup-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    opacity: 0.8;
+    background-color: var(--popup-background);
+    z-index: 1;
+  }
+  
+  .notifications {
+      min-width: 250px;
+      padding: 1rem 1rem 2rem;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    
+      font-size: 18px;
+      line-height: 20px;
+      
+      color: var(--notifications-info);
+      background-color: var(--notifications-info-background);
+      border: 2px solid var(--notifications-info);
+      border-left-width: 6px;
+      border-radius: 6px;
+      z-index: 2;
+    
+    .notification-close-wrapper {
+      text-align: right;
+    }
+    .notification-close {
+      display: inline-block;
+      cursor: pointer;
+
+      color: var(--notifications-info-close);
+      font-size: 30px;
+
+      &:hover {
+        color: var(--notifications-info-close-hover);
+      }
+    }
+
+    .notification {
+      margin: 2px 9px 0 0;
+      text-align: center;
+      word-wrap: break-word;
+    }
+
+    .notification-list {
+      margin: 0 2rem;
+      
+      text-align: center;
+      word-wrap: break-word;
+
+      &.multi {
+        text-align: left;
+      }
+    }
+
+    &.err {
+      border-color: var(--err);
+
+      .notification-close {
+        color: var(--notifications-err-close);
+  
+        &:hover {
+          color: var(--err);
+        }
+      }
+
+      .notification-list {
+        color: var(--err);
+      }
+    }
+
+  }
+
+}

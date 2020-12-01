@@ -1,0 +1,42 @@
+@import '_elements.scss';
+@import '_variables.scss';
+@import '_animations.scss';
+
+@import './Components/SchemeButton.scss';
+@import './Components/Loading.scss';
+@import './Components/LoadingWorkout.scss';
+@import './Components/GradientMain.scss';
+@import './Components/Nav.scss';
+@import './Components/Notifications.scss';
+@import './Components/ConfirmPopup.scss';
+@import './Components/Home.scss';
+@import './Components/WorkoutHome.scss';
+@import './Components/WorkoutNav.scss';
+@import './Components/WorkoutHeading.scss';
+@import './Components/RMTMList.scss';
+@import './Components/RMTMExercise.scss';
+@import './Components/RMCalcBlock.scss';
+@import './Components/AssistAddBlock.scss';
+@import './Components/ExerciseRow.scss';
+@import './Components/AssistExercise.scss';
+@import './Components/SignupForm.scss';
+@import './Components/LoginForm.scss';
+@import './Components/ResendEmail.scss';
+@import './Components/ForgotPassword.scss';
+
+
+
+
+// Main Container
+#container {
+  padding-top: 1rem;
+  position: relative;
+}
+
+// Media Query for Larger Screens
+@media (min-width: 600px) {
+  #container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+}

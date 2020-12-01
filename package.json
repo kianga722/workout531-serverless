@@ -1,0 +1,30 @@
+{
+  "name": "531workout-serverless",
+  "version": "1.0.0",
+  "description": "Generates workouts for the 5/3/1 Weightlifting program",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production netlify dev",
+    "build": "cd client && npm run build",
+    "dev": "NODE_ENV=development netlify dev",
+    "test": "NODE_ENV=test netlify dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie": "^0.4.1",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.18",
+    "mongoose-unique-validator": "^2.0.3",
+    "nodemailer": "^6.4.16",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "randomstring": "^1.1.5",
+    "serverless-http": "^2.6.0"
+  }
+}

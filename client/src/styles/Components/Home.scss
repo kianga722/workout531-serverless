@@ -1,0 +1,144 @@
+#home {
+  margin: 3rem 1rem;
+
+  .main-summary {
+    font-size: 32px;
+    line-height: 37px;
+    text-shadow: 0 1px 3px var(--main-summary-shadow);
+    text-align: center;
+  }
+
+  .links-register {
+    margin-top: 5rem;
+    text-align: center;
+  
+    a {
+      display: inline-block;
+      padding: 20px;
+  
+      font-size: 18px;
+      font-weight: 700;
+      background: var(--register-background);
+      text-shadow: 0 1px 3px var(--register-shadow);
+      border-radius: 4px;
+  
+      &:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+      }
+    }
+  }
+
+  #workout-demo {
+    margin-top: 2rem;
+  
+    color: var(--workout-text);
+    text-shadow: 0 1px 3px var(--workout-text-shadow);
+    font-size: 19px;
+  
+    .input-title {
+      margin-bottom: 2px;
+    }
+  
+    input {
+      width: 55px;
+      padding: 7px;
+  
+      font-size: 1rem;
+      border: 1px solid var(--input-border);
+    }
+    input:focus {
+      outline: none !important;
+      border:1px solid var(--input-focus-border);
+      box-shadow: 0 0 10px var(--input-box-shadow);
+    }
+  
+    .title-wrapper {
+      text-align: center;
+  
+      .demo-title {
+        display: inline-block;
+        padding-top: 2rem;
+    
+        border-top: 5px solid var(--demo-separation);
+        color: var(--text-general);
+        text-shadow: 0 1px 3px var(--demo-shadow);
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 25px;
+        text-align: center;
+      }
+    }
+  
+    .demo-step {
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+      padding: 1rem 2rem;
+  
+      color: var(--text-general);
+      background: linear-gradient(var(--demo-gradient-top), var(--demo-gradient-bottom));
+      //background: #8566e5;
+      border-radius: 4px 4px 169px 4px;
+      text-shadow: 0 1px 3px var(--demo-step-shadow);
+      font-weight: 700;
+      line-height: 25px;
+    }
+  
+    #workout-session-demo {
+      margin: 5rem 0;
+  
+      input {
+        width: 30px;
+      }
+      
+      .exercise-wrapper {
+        font-size: 16px;
+      
+        .exercise-title {
+          margin: 7px 0;
+      
+          font-size: 30px;
+          font-weight: 700;
+          text-shadow: 0 1px 3px rgba(215, 217, 255, 0.8);
+          text-align: center;
+        }
+      
+        .title-row {
+          display: grid;
+          align-items: center;
+          grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+          padding-bottom: 7px;
+          margin-bottom: 7px;
+          
+          border-bottom: 3px solid var(--title-row-border);
+          font-weight: 700;
+        }
+      
+      }
+    }
+  }
+
+
+}
+
+
+// Media Query for Larger Screens
+@media (min-width: 600px) {
+  #workout-demo {
+    .demo-step {
+      max-width: 700px;
+      margin: 3rem auto 2rem;
+    }
+
+    #workout-session-demo {
+      max-width: 1000px;
+      margin: 5rem auto 3rem;
+    }
+
+    .assistance-wrapper-demo {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+  }
+
+}
