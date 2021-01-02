@@ -1,4 +1,4 @@
-# 531workout
+# 531workout-serverless
 
 Generates workouts for the 5/3/1 Weightlifting program
 
