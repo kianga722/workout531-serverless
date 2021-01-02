@@ -1,22 +1,14 @@
 # 531workout
+
 Generates workouts for the 5/3/1 Weightlifting program
 
-[View App](https://workout531.herokuapp.com/)
+[View App](https://workout.taco.fyi)
 
 ![screenshot](https://github.com/kianga722/531workout/blob/master/screenshot.png)
 
 ## Summary
 
-* Built using React, Node, and MongoDB
-* App generates workouts following the 5/3/1 Weightlifting program for Beginners
-* Saves current workout progress in local storage
-* User authentication using JSON Web Tokens
-* Integration tests using Cypress
-
-## Future Improvements
-
-* Add more rigorous user input validation
-* Improve styling and visuals of webapp
-* Increase restrictions on authentication/account creation logic
-* Improve integration tests
-* Develop calendar showing workout history
+- Same as [531workout](https://github.com/kianga722/531workout) but now using Netlify serverless functions (to stop relying on Heroku dyno which needs to wake up)
+- Used serverless-http package to wrap Express API for serverless use (instead of trying to re-write everything)
+- Needed to add public/\_redirects file for React Router to work
+- Updated Nodemailer call async await syntax to send properly
